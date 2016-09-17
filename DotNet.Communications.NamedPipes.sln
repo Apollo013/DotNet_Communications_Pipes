@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedPipe.Client", "NamedPi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedPipe.Common", "NamedPipeThreadedExample\NamedPipe.Common\NamedPipe.Common.csproj", "{2C498975-DF16-46F6-B3EE-4A3EA1809317}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnonymousPipeExample", "AnonymousPipeExample", "{A2A35E4C-FB74-40F4-AA58-DDB6DE9CE06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousPipe.Server", "AnonymousPipeExample\AnonymousPipe.Server\AnonymousPipe.Server.csproj", "{DD5A9F5E-9C0F-49B1-916B-EA385CF46A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousPipe.Client", "AnonymousPipeExample\AnonymousPipe.Client\AnonymousPipe.Client.csproj", "{80D5B476-B3ED-4529-9152-0B0C74252A2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +49,14 @@ Global
 		{2C498975-DF16-46F6-B3EE-4A3EA1809317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C498975-DF16-46F6-B3EE-4A3EA1809317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C498975-DF16-46F6-B3EE-4A3EA1809317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5A9F5E-9C0F-49B1-916B-EA385CF46A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5A9F5E-9C0F-49B1-916B-EA385CF46A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5A9F5E-9C0F-49B1-916B-EA385CF46A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5A9F5E-9C0F-49B1-916B-EA385CF46A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D5B476-B3ED-4529-9152-0B0C74252A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D5B476-B3ED-4529-9152-0B0C74252A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D5B476-B3ED-4529-9152-0B0C74252A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D5B476-B3ED-4529-9152-0B0C74252A2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +67,7 @@ Global
 		{43F5F695-442A-4880-977F-E59BAF904FEA} = {D991E848-C445-4223-9C98-A4FB03219E9A}
 		{7AF2B3BE-18A9-4436-BFA1-994BCC43F3A7} = {D991E848-C445-4223-9C98-A4FB03219E9A}
 		{2C498975-DF16-46F6-B3EE-4A3EA1809317} = {D991E848-C445-4223-9C98-A4FB03219E9A}
+		{DD5A9F5E-9C0F-49B1-916B-EA385CF46A4E} = {A2A35E4C-FB74-40F4-AA58-DDB6DE9CE06C}
+		{80D5B476-B3ED-4529-9152-0B0C74252A2C} = {A2A35E4C-FB74-40F4-AA58-DDB6DE9CE06C}
 	EndGlobalSection
 EndGlobal
