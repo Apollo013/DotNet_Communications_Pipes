@@ -1,5 +1,5 @@
 # DotNet_Communications_Pipes
-A few console apps demonstrating both anonymous and named pipe communications
+A few console apps demonstrating both anonymous and named pipe communication
 
 ---
 
