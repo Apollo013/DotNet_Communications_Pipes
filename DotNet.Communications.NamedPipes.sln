@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicSendReceive", "BasicSendReceive", "{9897E7C7-5A33-4C9A-95A1-4C2EBCF17706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSendReceive.Server", "BasicSendReceive\BasicSendReceive.Server\BasicSendReceive.Server.csproj", "{C7374DAB-3FC2-4ADF-B038-2FDC73806AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSendReceive.Client", "BasicSendReceive\BasicSendReceive.Client\BasicSendReceive.Client.csproj", "{DE08BB4F-12D1-40EB-9737-F87D800CC129}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7374DAB-3FC2-4ADF-B038-2FDC73806AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7374DAB-3FC2-4ADF-B038-2FDC73806AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7374DAB-3FC2-4ADF-B038-2FDC73806AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7374DAB-3FC2-4ADF-B038-2FDC73806AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE08BB4F-12D1-40EB-9737-F87D800CC129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE08BB4F-12D1-40EB-9737-F87D800CC129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE08BB4F-12D1-40EB-9737-F87D800CC129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE08BB4F-12D1-40EB-9737-F87D800CC129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7374DAB-3FC2-4ADF-B038-2FDC73806AB3} = {9897E7C7-5A33-4C9A-95A1-4C2EBCF17706}
+		{DE08BB4F-12D1-40EB-9737-F87D800CC129} = {9897E7C7-5A33-4C9A-95A1-4C2EBCF17706}
 	EndGlobalSection
 EndGlobal
