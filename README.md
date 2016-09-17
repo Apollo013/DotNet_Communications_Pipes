@@ -3,7 +3,7 @@ A few console apps demonstrating both anonymous and named pipe communication
 
 ---
 
-Developed using Visual Studio Community
+Developed using Visual Studio 2015 Community
 
 ---
 
