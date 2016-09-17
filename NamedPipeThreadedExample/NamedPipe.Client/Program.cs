@@ -75,6 +75,7 @@ namespace NamedPipe.Client
                 // Start 'this' program but spawn a named pipe client.
                 plist[i] = Process.Start(currentProcessName, "spawnclient");
             }
+
             while (i > 0)
             {
                 for (int j = 0; j < numClients; j++)

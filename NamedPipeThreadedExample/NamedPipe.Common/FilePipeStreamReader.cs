@@ -2,6 +2,9 @@
 
 namespace NamedPipe.Common
 {
+    /// <summary>
+    /// Reads the contents of a file and writes it to a stream
+    /// </summary>
     public class FilePipeStreamReader
     {
         private string _filename;

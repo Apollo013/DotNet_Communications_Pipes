@@ -5,7 +5,7 @@ using System.Text;
 namespace NamedPipe.Common
 {
     /// <summary>
-    /// Defines the data protocol for reading and writing strings on our stream
+    /// Defines the data protocol for reading and writing strings on a stream
     /// </summary>
     public class StringPipeStream
     {

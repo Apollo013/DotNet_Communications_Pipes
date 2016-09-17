@@ -68,6 +68,8 @@ namespace NamedPipe.Server
 
                 // Verify our identity to the connected client using a string that the client anticipates.
                 sps.WriteString("I am the one true server!");
+
+                // Get name of file to read (from client)
                 string filename = sps.ReadString();
 
                 // Read in the contents of the file while impersonating the client.
